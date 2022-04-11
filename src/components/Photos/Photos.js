@@ -4,7 +4,7 @@ import './Photos.css';
 
 const Photos = ({ photos }) => {
     return (
-        <div className="image-container">
+        <div className="images-container">
             {
                 photos.map(photo => <Photo
                     photo={photo}

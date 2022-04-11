@@ -4,7 +4,9 @@ import './Photo.css';
 const Photo = ({ photo }) => {
     const { img } = photo;
     return (
-        <img className='image' src={img} alt="" />
+        <div className="image-container">
+            <img className='image' src={img} alt="" />
+        </div>
     );
 };
 
