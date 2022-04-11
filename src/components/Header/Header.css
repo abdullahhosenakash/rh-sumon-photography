@@ -9,10 +9,21 @@ header {
     background-color: #fff;
 }
 
+.nav-tabs {
+    display: flex;
+}
+
 header img {
     width: 20%;
     height: 80px;
     margin-right: 20px;
+}
+
+.menu-bar {
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+    width: 10%;
 }
 
 .portfolio-tab {
@@ -43,4 +54,21 @@ header a {
     background-color: black;
     padding: 1px 5px;
     border-radius: 2px;
+}
+
+@media only screen and (max-width: 992px) {
+    .menu-bar {
+        display: block;
+    }
+
+    #nav-tab {
+        display: none;
+        padding: 20px;
+        position: absolute;
+        top: 70px;
+        left: 70%;
+        background-color: #fff;
+    }
+
+    .dropdown-menu {}
 }

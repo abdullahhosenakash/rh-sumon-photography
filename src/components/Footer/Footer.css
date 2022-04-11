@@ -6,3 +6,18 @@ footer {
     height: 50px;
     background-color: #fff;
 }
+
+.highphen {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+    .highphen {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
