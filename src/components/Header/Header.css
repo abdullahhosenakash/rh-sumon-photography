@@ -15,10 +15,16 @@ header img {
     margin-right: 20px;
 }
 
+.portfolio-tab {
+    position: relative;
+}
+
 .dropdown-menu {
     text-align: right;
     position: absolute;
-    top: 0;
+    top: 25px;
+    width: 250px;
+    right: 0;
     background-color: #fff;
     padding: 10px;
     margin-right: 0;
