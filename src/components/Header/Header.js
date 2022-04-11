@@ -11,19 +11,16 @@ const Header = () => {
     const [clicked, setClicked] = useState(false);
 
 
-    const barButtonClicked = () => {
+    const barButtonClicked = (insideButton) => {
         const navTab = document.getElementById('nav-tab');
-        const state = !clicked;
+        let state = !clicked;
         setClicked(state);
         if (state) {
             navTab.style.display = 'block';
-            console.log(state)
         }
         else {
-            console.log(state)
             navTab.style.display = 'none';
         }
-
     }
 
     const showDropdownMenu = () => {
