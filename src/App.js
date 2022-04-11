@@ -10,6 +10,7 @@ import About from './components/About/About';
 import NaturePhotography from './components/NaturePhotography/NaturePhotography';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/nature-photography' element={<NaturePhotography></NaturePhotography>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
+        <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
