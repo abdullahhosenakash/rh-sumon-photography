@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(44, 82, 139);
+}
+
+header img {
+    width: 13%;
+    height: 90px;
+    margin-right: 20px;
+}
+
+
+.portfolio-navigation {}
